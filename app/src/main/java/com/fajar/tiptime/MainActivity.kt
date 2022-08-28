@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         _binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(_binding.root)
-        //Button
+        //Button calculate
         _binding.btnCalculate.setOnClickListener { calculate() }
 
         _binding.edtCost.setOnKeyListener { view, keyCode, _ ->
