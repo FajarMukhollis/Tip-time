@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
             )
         }
 
-        //SAVE MODE
+        //SAVE
         when (pref.getBoolean("dark_mode")) {
             true -> {
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
